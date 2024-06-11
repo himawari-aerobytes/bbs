@@ -45,6 +45,8 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'devise'
+gem "omniauth"
+gem "omniauth-rails_csrf_protection"
 gem 'omniauth-azure-activedirectory-v2'
 gem 'dotenv-rails', groups: [:development, :test]
 
